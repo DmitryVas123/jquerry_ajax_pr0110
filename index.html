@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>News App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <h1>News Cite</h1>
+    </nav>
+    <form class="formNews" method="GET">
+        <label for="newsSource">Search by source:</label>
+        <input type="text" id="newsSource" placeholder="Enter news source">
+        <button type="button" class="getNewsBtn">Search</button>
+
+        <label for="keyword">Search by keyword:</label>
+        <input type="text" id="keyword" placeholder="Enter keyword">
+        <button type="button" class="getNewsBtn">Search</button>
+
+        <label for="category">Search by category:</label>
+        <input type="text" id="category" placeholder="Enter category">
+        <button type="button" class="getNewsBtn">Search</button>
+    </form>
+    <div id="news-container"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
